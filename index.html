@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta property="og:site" content="index.html">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
+<meta name="theme-color" content="#5ea2ff">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.scss">
+
+<title>VotyApp</title>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/css/line-icons.css" />
+<link rel="stylesheet" href="assets/css/animate.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="shortcut icon" type="image/x-icon" href="dashboard/assets/images/logo.ico" />
+</head>
+<body>
+<div class="preloader">
+<div class="preloader-inner">
+<div class="preloader-icon">
+<span></span>
+<span></span>
+</div>
+</div>
+</div>
+<header class="header navbar-area">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<div class="nav-inner">
+<nav class="navbar navbar-expand-lg">
+<a class="navbar-brand" href="index.html">
+<p>V O T Y A P P</p>
+</a>
+<button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="toggler-icon"></span>
+<span class="toggler-icon"></span>
+<span class="toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+<ul id="nav" class="navbar-nav ms-auto">
+<li class="nav-item">
+<a href="#home" class="page-scroll active" aria-label="Toggle navigation">Início</a>
+</li>
+<li class="nav-item">
+<a href="#perguntas" class="page-scroll" aria-label="Toggle navigation">Ver Perguntas</a>
+</li>
+</ul>
+</div>
+<div class="button add-list-button">
+<a href="avaliacoes.php" class="btn">Ver Avaliações</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section id="home" class="hero-area">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-5 col-md-12 col-12">
+<div class="hero-content">
+<h1 class="wow fadeInLeft" data-wow-delay=".4s">REINO DOCE</h1>
+<p class="wow fadeInLeft" data-wow-delay=".6s">Site criado com a inteção de realizar a avaliação do aplicativo Reino Doce, este possui os melhores cones trufados da região!</p>
+<div class="button wow fadeInLeft" data-wow-delay=".8s">
+<a href="#perguntas" class="btn">Perguntas</a>
+</div>
+</div>
+</div>
+<div class="col-lg-7 col-md-12 col-12">
+<div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+<img src="assets/images/teste.svg" alt="#" style="transform: scale(0.9) perspective(500px) rotateY(-10deg) rotateX(-0.5deg) rotateZ(1.5deg);
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.3));">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="perguntas" class="features section">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="section-title">
+<h3 class="wow zoomIn">Perguntas</h3>
+<h2 class="wow fadeInUp">LOCAL DAS PERGUNTAS
+</h2>
+</div>
+</div>
+</div>
+<form action="inserir.php" method="POST">
+<div class="coluna1">
+<h4>1. Você gostou do design do aplicativo?</h4>
+
+
+<div class="two-column">
+  <div class="single-col">
+    <div class="styled-input-container">
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-1" value="5" id="radio-example-one" />
+        <label for="radio-example-one">Nota 5</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-1" value="4" id="radio-example-two" />
+        <label for="radio-example-two">Nota 4</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-1" value="3" id="radio-example-three" />
+        <label for="radio-example-three">Nota 3</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-1" value="2" id="radio-example-four" />
+        <label for="radio-example-four">Nota 2</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-1" value="1" id="radio-example-five" />
+        <label for="radio-example-five">Nota 1</label>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<h4>2. Você achou o aplicativo de fácil acesso?</h4>
+
+<div class="two-column">
+  <div class="single-col">
+    <div class="styled-input-container">
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-2" value="5" id="radio2-example-one" />
+        <label for="radio2-example-one">Nota 5</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-2" value="4" id="radio2-example-two" />
+        <label for="radio2-example-two">Nota 4</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-2" value="3" id="radio2-example-three" />
+        <label for="radio2-example-three">Nota 3</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-2" value="2" id="radio2-example-four" />
+        <label for="radio2-example-four">Nota 2</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-2"  value="1" id="radio2-example-five" />
+        <label for="radio2-example-five">Nota 1</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h4>3. O aplicativo atendeu suas expectativas?</h4>
+
+<div class="two-column">
+  <div class="single-col">
+    <div class="styled-input-container">
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-3" value="5" id="radio3-example-one" />
+        <label for="radio3-example-one">Nota 5</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-3" value="4" id="radio3-example-two" />
+        <label for="radio3-example-two">Nota 4</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-3" value="3" id="radio3-example-three" />
+        <label for="radio3-example-three">Nota 3</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-3" value="2" id="radio3-example-four" />
+        <label for="radio3-example-four">Nota 2</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-3" value="1" id="radio3-example-five" />
+        <label for="radio3-example-five">Nota 1</label>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="coluna2">
+<h4>4. Você gostou da interface do sistema?</h4>
+
+<div class="two-column">
+  <div class="single-col">
+    <div class="styled-input-container">
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-4" value="5" id="radio4-example-one" />
+        <label for="radio4-example-one">Nota 5</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-4" value="4" id="radio4-example-two" />
+        <label for="radio4-example-two">Nota 4</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-4" value="3" id="radio4-example-three" />
+        <label for="radio4-example-three">Nota 3</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-4" value="2" id="radio4-example-four" />
+        <label for="radio4-example-four">Nota 2</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-4" value="1" id="radio4-example-five" />
+        <label for="radio4-example-five">Nota 1</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h4 style="margin-left: 7px;">5. O tema do aplicativo está bem estruturado?</h4>
+
+<div class="two-column">
+  <div class="single-col">
+    <div class="styled-input-container">
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-5" value="5" id="radio5-example-one" />
+        <label for="radio5-example-one">Nota 5</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-5" value="4" id="radio5-example-two" />
+        <label for="radio5-example-two">Nota 4</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-5" value="3" id="radio5-example-three" />
+        <label for="radio5-example-three">Nota 3</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-5" value="2" id="radio5-example-four" />
+        <label for="radio5-example-four">Nota 2</label>
+      </div>
+      <div class="styled-input-single">
+        <input type="radio" name="fieldset-5" value="1" id="radio5-example-five" />
+        <label for="radio5-example-five">Nota 1</label>
+      </div>
+    </div>
+  </div>
+</div>
+     <input type="submit" value="ENVIAR" id="envia">
+<br><br><br>
+</form>
+
+</div>
+</div>
+</section>
+
+<section class="section call-action">
+<div class="container">
+<div class="row">
+<div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+<div class="cta-content">
+<h2 class="wow fadeInUp" data-wow-delay=".2s">O que você está esperando?</h2>
+<p class="wow fadeInUp" data-wow-delay=".4s">Faça uma visita e entenda o nosso sistema por dentro.</p>
+<div class="button wow fadeInUp" data-wow-delay=".6s">
+<a href="avaliacoes.php" class="btn">Avaliações</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="footer-top">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-12 horizontal-center" style="text-align: center;">
+<div class="single-footer f-about">
+&copy VotyApp Software 2022 <br>
+by: Vinicius
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<a href="#" class="scroll-top">
+<i class="lni lni-chevron-up"></i>
+</a>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/count-up.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
